@@ -1,0 +1,261 @@
+{
+    "laborator":{
+        "nume_laborator": "Live Together",
+        "contact": {
+            "telefon_laborator": "0733910940",
+            "email_laborator": "office@live-together.ro"
+            }
+        },
+    "categorii": [
+        {
+            "nume_categorie": "Biochimie",
+            "analize": [
+                {
+                    "nume_analiza": "Acid uric urinar",
+                    "descriere": "Acidul uric este produsul final al metabolismului purinelor (componente importante ale acizilor nucleici si coenzimelor care pot fi sintetizate in corp sau pot fi obtinute prin consumul unor alimente).",
+                    "indicatii": "Determinarea acidului uric urinar este indicata pentru: diagnosticarea  calculilor renali, determinare cauzei litiazei renale recurente, monitorizarea persoanelor cu guta",
+                    "interpretare": {
+                        "nivel_scazut":{
+                            "valoare_ns": 10,
+                            "boala_ns": "Afectiuni renale cornice, Xantinurie, Intoxicatie cu plumb"
+                        },
+                        "nivel_ridicat": {
+                            "valoare_nr": 39,
+                            "boala_nr": "Leucemie, Nefrolitiaza, Hepatie virala, Siclemie"
+                        }
+                    },
+                    "pret": 32
+                },
+                {
+                    "nume_analiza": "Profil lipidic (colesterol, colest HDL, LDL, trigliceride)",
+                    "descriere": "Trigliceridele sunt compusi lipidici formati din glicerol esterificat cu 3 catene  de acizi grasi. Se gasesc in majoritatea grasimilor si uleiurilor vegetale si animale. Trigliceridele din tesutul adipos reprezinta cel mai important depozit de rezerve energetice ale organismului. Valori ridicate ale trigliceridelor, reprezinta un factor de risc pentru aparitia diabetului sau patologii pancreatice. Hipertrigliceridemia este un factor de risc pentru boala arterelor coronare in special cand HDL scazut este prezent. Profilul standard de lipide consta in masurarea: trigliceridelor, colesterolului total, HDL colesterol, LDL colesterol",
+                    "indicatii": "Testarea profilului lipidic se recomanda in urmatoarele situatii: identificarea hiperlipemiilor, evaluarea riscului de aterscleroza, toti adultii peste 20 ani o data la 5 ani, barbati cu varsta > 35 ani cu risc crescut de boala coronariana, femeie cu varsta >45 ani cu risc crescut de boala coronariana.",
+                    "interpretare": {
+                        "nivel_scazut": {
+                            "valoare_ns": 20,
+                            "boala_ns": ">Malnutritie, Malabsorbtie, Hipertiroidism, BROC"
+                        },
+                        "nivel_ridicat": {
+                            "valoare_nr": 200,
+                            "boala_nr": "Guta, Pancreatita, Boli renale, Diabet zaharat, Anorexie nervoasa, Alcoolism"
+                        }
+                    },
+                    "pret": 66
+                }
+
+            ]
+        },
+        {
+            "nume_categorie": "Biologie moleculara",
+            "analize": [
+                {
+                    "nume_analiza":"HIV/1 ARN (Cantitativ)",
+                    "descriere": "Virusul imunodeficientei umane (HIV) este virusul care provoaca sindromul imunodeficientei dobandite (SIDA). Acest test masoara cantitatea (incarcatura virala) materialului genetic din sange si raporteaza cate copii ale virusului sunt prezente. Cand o persoana este initial infectata cu HIV, virusul se replica, iar principalul obiectiv sunt celulele CD4 (celule albe din sange care lupta impotriva infectiilor). Virusul intra in celule si le foloseste pentru a se replica si raspandi in tot corpul. Se deplaseaza in ganglionii limfatici, splina si in alte parti ale corpului.",
+                    "indicatii": "Monitorizarea evolutiei bolii (in prezenta sau in absenta terapiei antiretrovirale) , diagnosticul infectiei la nou-nascuti, evaluarea eficacitatii diferitelor tratamente antivirale",
+                    "interpretare": {
+                        "nivel_scazut":{
+                            "valoare_ns":0,
+                            "boala_ns": "Lipsa virusului HIV."
+                        },
+                        "nivel_ridicat":{
+                            "valoare_nr": 1,
+                            "boala_nr": "Existenta virusului HIV in organism."
+                        }
+                    },
+                    "pret": 2987
+                }
+            ]
+        },
+        {
+            "nume_categorie": "Alergologie si imunologie",
+            "analize": [
+                {
+                    "nume_analiza":"Imunoglobulina A",
+                    "descriere": "Imunoglobulinele sunt glicoproteine produse de celulele plasmatice ca raspuns la un antigen. Sunt impartite in 5 clase dupa cum urmeaza: IgG - lanturi grele γ, IgM - lanturi grele μ, IgA - lanturi grele U+03b1, IgD-lanturi grele U+03b4, IgE - lanturi grele U+03b5. Roluri: IgG - aparare antivirala,antibacteriana si contra toxinelor bacteriene, IgA - apararea mucoaselor, IgM - aparare antibacteriana, IgE - in anafilaxie si aparare antiparazitara, IgD - intra in alcatuirea receptorilor pentru antigen ai limfocitelor B",
+                    "indicatii": "Diagnosticul si monitorizarea gamapatiilor monoclonale, Diagnosticul si monitorizarea deficitelor sistemului imunitar",
+                    "interpretare": {
+                        "nivel_scazut":{
+                            "valoare_ns":2,
+                            "boala_ns": "Ataxietelengiectazie, Boala sinopulmonara cronica, Deficit congenital"
+                        },
+                        "nivel_ridicat":{
+                            "valoare_nr": 4,
+                            "boala_nr": "Mielom IgA, Ciroza hepatica, Icter obstructiv, Alcoolism, Infectii subacute si cronice, Sindrom Wiskott-Aldrich"
+                        }
+                    },
+                    "pret": 46
+                },
+                {
+                    "nume_analiza":"Imunoglobulina G",
+                    "descriere": "Acest test masoara cantitatea de imunoglobuline G din sange si in anumite situatii din lichidul cefalorahidian sau din saliva. Exista numeroase boli si afectiuni care pot cauza cresterea sau scaderea productiei de imunoglobuline serice. Imunoglobulina G (IgG) reprezinta aproximativ 70-80% din imunoglobulinele din sange. Anticorpii IgG constituie baza de protectie pe termen lung impotriva microorganismelor. Anticorpii IgG specifici sunt produsi in timpul unei infectii sau la expunerea initial, avand evolutie crescatoare timp de cateva saptamani de la debut, scaznd apoi si stabilizandu-se. Anticorpii IgG ai mamei ofera fatului protectie in timpul sarcinii si in timpul primelor sale luni de viata",
+                    "indicatii": "Recomandari pentru determinarea IgG: evaluarea imunitatii umorale, diagnosticul de mielom IgG, monitorizarea terapiei in mielomul IgG, estimarea riscului de infectii la pacientii cu limfoame.",
+                    "interpretare": {
+                        "nivel_scazut":{
+                            "valoare_ns":5,
+                            "boala_ns": "Mielom non-IgG, Sindroame cu pierdere de protein, Sarcina, Macroglobulinemie, Aplazie limfoida, Leucemie lifatica cronica, Deficient selective de IgG, Agamaglobulinemie"
+                        },
+                        "nivel_ridicat":{
+                            "valoare_nr": 8,
+                            "boala_nr": "Afectiuni hepatice cronice, Sarcoidoza, Boli autoimmune, Malnutritie severa, Parazitoze,  Hiperimunizare, Disproteinemie, Mielom IgG"
+                        }
+                    },
+                    "pret": 98
+                },
+                {
+                    "nume_analiza":"Coenzima Q10",
+                    "descriere": "Coenzima Q10 (CoQ10) este un cofactor esential in lantul respirator mitocondrial, responsabil pentru fosforilarea oxidativa, unde functioneaza ca purtator de electroni si actioneaza ca antioxidant. CoQ10 se gaseste in toate membranele celulare si este transportata de catre lipoproteine in circulatie.",
+                    "indicatii": "Diagnosticul deficientei de CoQ10 in afectiunile mitocondriale, Monitorizarea pacientilor care primesc tratament cu statine, Monitorizarea statusului CoQ10 in cursul tratamentului unor boli degenerative, precum boala Parkinson si boala Alzheimer",
+                    "interpretare": {
+                        "nivel_scazut":{
+                            "valoare_ns":0.5,
+                            "boala_ns": "Encefalomiopatie"
+                        },
+                        "nivel_ridicat":{
+                            "valoare_nr": 1.48,
+                            "boala_nr": "Miopatie"
+                        }
+                    },
+                    "pret": 780
+                }
+            ]
+        },
+        {
+            "nume_categorie": "Endocrinologie",
+            "analize": [
+                {
+                    "nume_analiza": "Estradiol",
+                    "descriere": "Estrogenii sunt hormoni sexuali produsi in principal in ovare (la femei) si in testicule (la barbati). Cei mai cunoscuti estrogeni sunt 17b-estradiol si estriol. Acestia sunt evaluati in scop diagnostic. Nivelul de estradiol creste in faza foliculara a ciclului menstrual. La menopauza, nivelul acestuia este scazut datorita diminuarii productiei ovariene.",
+                    "indicatii": "Evaluarea estradiolului este utila in urmatoarele situatii: Tulburari de dezvoltare la copii (ex hipogonadism, pubertate intarziata), Evaluarea functiei de reproducere si de reproducere asistata la femeile aflate la premenopauza,  Tulburari de fertilitate la barbati si femei, Evaluarea tumorilor ovariene si testiculare",
+                    "interpretare": {
+                        "nivel_scazut": {
+                            "valoare_ns": 7,
+                            "boala_ns": "Hipofunctie ovariana, Hipopituitarism, Anorexia nervoasa, Hipofunctia cortexului suprarenalian, Moarte fetala, Menopauza"
+                        },
+                        "nivel_ridicat": {
+                            "valoare_nr": 18,
+                            "boala_nr": "Neoplasm ovarian, testicular si al glandei suprarenale, Tumori benigne ale ovarului si testiculului, Tumori ovariene cu celule luteale si tecale"
+                        }
+                    },
+                    "pret": 59
+                }
+            ]
+        }
+
+    ],
+    "pacienti": [
+        {
+            "nume_pacient": "Stanciu",
+            "prenume_pacient": "Malina",
+            "cnp": "2990630038683",
+            "varsta_pacient": 23,
+            "telefon_pacient": "0729695890",
+            "sex": "F",
+            "email": "malina_stanciu@outlook.com",
+            "istoric_medical": [
+                {
+                    "analiza_pacient": "Coenzima Q10",
+                    "data_efectuare": "30.01.2022",
+                    "rezultat": 12
+                },
+                {
+                    "analiza_pacient": "Estradiol",
+                    "data_efectuare": "30.03.2022",
+                    "rezultat": 1
+                },
+                {
+                    "analiza_pacient": "Imunoglobulina G",
+                    "data_efectuare": "19.08.2021",
+                    "rezultat": 6.5
+                }
+            ]
+        },
+        {
+            "nume_pacient": "Popescu",
+            "prenume_pacient": "Victoria",
+            "cnp": "2960419037856",
+            "varsta_pacient": 26,
+            "telefon_pacient": "0728910712",
+            "sex": "F",
+            "email": "victoria.popescu@yahoo.com",
+            "istoric_medical": [
+                {
+                    "analiza_pacient":"Imunoglobulina A",
+                    "data_efectuare": "04.03.2022",
+                    "rezultat": 4.9
+                },
+                {
+                    "analiza_pacient":"Imunoglobulina G",
+                    "data_efectuare": "17.03.2022",
+                    "rezultat": 9
+                }
+            ]
+        },
+        {
+            "nume_pacient": "Ionescu",
+            "prenume_pacient": "Gabriel",
+            "cnp": "1670126096768",
+            "varsta_pacient": 55,
+            "telefon_pacient": "0789654234",
+            "sex": "M",
+            "email": "",
+            "istoric_medical": [
+                {
+                    "analiza_pacient": "Acid uric urinar",
+                    "data_efectuare": "09.05.2021",
+                    "rezultat": 4
+                }
+            ]
+        },
+        {
+            "nume_pacient": "Ion",
+            "prenume_pacient": "Ion",
+            "cnp": "1890826091111",
+            "varsta_pacient": 33,
+            "telefon_pacient": "0776589089",
+            "sex": "M",
+            "email": "ion@gmail.com",
+            "istoric_medical": [
+                {
+                    "analiza_pacient": "HIV/1 ARN (Cantitativ)",
+                    "data_efectuare": "20.09.2019",
+                    "rezultat": 3
+                }
+            ]
+        }
+    ],
+    "medici": [
+        {
+            "nume_medic": "Popescu",
+            "prenume_medic": "Mihaela",
+            "varsta_medic": 33,
+            "vechime": 3,
+            "specializare": [
+                "Biochimie",
+                "Endocrinologie"
+            ]
+        },
+        {
+            "nume_medic": "Ion",
+            "prenume_medic": "Maria",
+            "varsta_medic": 45,
+            "vechime": 10,
+            "specializare":[
+                "Biologie moleculara",
+                "Biochimie",
+                "Endocrinologie",
+                "Alergologie si imunologie" 
+            ]
+        },
+        {
+            "nume_medic": "Gheorghe",
+            "prenume_medic": "Ioana",
+            "varsta_medic": 38,
+            "vechime": 6,
+            "specializare":[ "Alergologie si imunologie"]
+                
+            
+        }
+        
+    ]
+    
+}

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <!DOCTYPE laborator_medical SYSTEM "laborator_analize.dtd"> -->
+<?xml-stylesheet type="text/xsl" href="laborator_analize.xsl"?>
+
+<!-- Gestiunea analizelor pacientilor intr-un laborator medical -->
+<laborator_medical xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="laborator_analize.xsd">
+    <laborator>
+        <nume_laborator>Live Together</nume_laborator>
+        <contact>
+            <telefon_laborator>0733910940</telefon_laborator>
+            <email_laborator>office@live-together.ro</email_laborator>
+        </contact>
+    </laborator>
+
+
+    <categorii>
+        <categorie nume_categorie="Biochimie">
+            <analize>
+                <analiza>
+                    <nume_analiza>Acid uric urinar</nume_analiza>
+                    <descriere>Acidul uric este produsul final al metabolismului purinelor (componente importante ale acizilor nucleici si coenzimelor care pot fi sintetizate in corp sau pot fi obtinute prin consumul unor alimente).</descriere>
+                    <indicatii>Determinarea acidului uric urinar este indicata pentru: diagnosticarea  calculilor renali, determinare cauzei litiazei renale recurente, monitorizarea persoanelor cu guta</indicatii>
+                    <interpretare>
+                        <nivel_scazut>
+                            <valoare_ns>10</valoare_ns>
+                            <boala_ns>Afectiuni renale cornice, Xantinurie, Intoxicatie cu plumb</boala_ns>
+                        </nivel_scazut>
+                        <nivel_ridicat>
+                            <valoare_nr>39</valoare_nr>
+                            <boala_nr>Leucemie, Nefrolitiaza, Hepatie virala, Siclemie</boala_nr>
+                        </nivel_ridicat>
+                    </interpretare>
+                    <pret>32</pret>
+                </analiza>
+
+                <analiza>
+                    <nume_analiza>Profil lipidic (colesterol, colest HDL, LDL, trigliceride)</nume_analiza>
+                    <descriere>Trigliceridele sunt compusi lipidici formati din glicerol esterificat cu 3 catene  de acizi grasi. Se gasesc in majoritatea grasimilor si uleiurilor vegetale si animale. Trigliceridele din tesutul adipos reprezinta cel mai important depozit de rezerve energetice ale organismului. Valori ridicate ale trigliceridelor, reprezinta un factor de risc pentru aparitia diabetului sau patologii pancreatice. Hipertrigliceridemia este un factor de risc pentru boala arterelor coronare in special cand HDL scazut este prezent. Profilul standard de lipide consta in masurarea: trigliceridelor, colesterolului total, HDL colesterol, LDL colesterol</descriere>
+                    <indicatii>Testarea profilului lipidic se recomanda in urmatoarele situatii: identificarea hiperlipemiilor, evaluarea riscului de aterscleroza, toti adultii peste 20 ani o data la 5 ani, barbati cu varsta > 35 ani cu risc crescut de boala coronariana, femeie cu varsta >45 ani cu risc crescut de boala coronariana.</indicatii>
+                    <interpretare>
+                        <nivel_scazut>
+                            <valoare_ns>20</valoare_ns>
+                            <boala_ns>Malnutritie, Malabsorbtie, Hipertiroidism, BROC</boala_ns>
+                        </nivel_scazut>
+                        <nivel_ridicat>
+                            <valoare_nr>200</valoare_nr>
+                            <boala_nr>Guta, Pancreatita, Boli renale, Diabet zaharat, Anorexie nervoasa, Alcoolism</boala_nr>
+                        </nivel_ridicat>
+                    </interpretare>
+                    <pret>66</pret>
+                </analiza>
+            </analize>
+        </categorie>
+
+        <categorie nume_categorie="Biologie moleculara">
+            <analize>
+                <analiza>
+                    <nume_analiza>HIV/1 ARN (Cantitativ)</nume_analiza>
+                    <descriere>Virusul imunodeficientei umane (HIV) este virusul care provoaca sindromul imunodeficientei dobandite (SIDA). Acest test masoara cantitatea (incarcatura virala) materialului genetic din sange si raporteaza cate copii ale virusului sunt prezente. Cand o persoana este initial infectata cu HIV, virusul se replica, iar principalul obiectiv sunt celulele CD4 (celule albe din sange care lupta impotriva infectiilor). Virusul intra in celule si le foloseste pentru a se replica si raspandi in tot corpul. Se deplaseaza in ganglionii limfatici, splina si in alte parti ale corpului.</descriere>
+                    <indicatii>Monitorizarea evolutiei bolii (in prezenta sau in absenta terapiei antiretrovirale) , diagnosticul infectiei la nou-nascuti, evaluarea eficacitatii diferitelor tratamente antivirale</indicatii>
+                    <interpretare>
+                        <nivel_scazut>
+                            <valoare_ns>0</valoare_ns>
+                            <boala_ns>Lipsa virusului HIV</boala_ns>
+                        </nivel_scazut>
+                        <nivel_ridicat>
+                            <valoare_nr>1</valoare_nr>
+                            <boala_nr>Existenta virusului HIV in organism</boala_nr>
+                        </nivel_ridicat>
+                    </interpretare>
+                    <pret>2987</pret>
+                </analiza>
+        </analize>
+        </categorie>
+
+        <categorie nume_categorie="Alergologie si imunologie">
+            <analize>
+                <analiza>
+                    <nume_analiza>Imunoglobulina A</nume_analiza>
+                    <descriere>Imunoglobulinele sunt glicoproteine produse de celulele plasmatice ca raspuns la un antigen. Sunt impartite in 5 clase dupa cum urmeaza: IgG - lanturi grele γ, IgM - lanturi grele μ, IgA - lanturi grele U+03b1, IgD-lanturi grele U+03b4, IgE - lanturi grele U+03b5. Roluri: IgG - aparare antivirala,antibacteriana si contra toxinelor bacteriene, IgA - apararea mucoaselor, IgM - aparare antibacteriana, IgE - in anafilaxie si aparare antiparazitara, IgD - intra in alcatuirea receptorilor pentru antigen ai limfocitelor B</descriere>
+                    <indicatii>Diagnosticul si monitorizarea gamapatiilor monoclonale, Diagnosticul si monitorizarea deficitelor sistemului imunitar</indicatii>
+                    <interpretare>
+                        <nivel_scazut>
+                            <valoare_ns>2</valoare_ns>
+                            <boala_ns>Ataxietelengiectazie, Boala sinopulmonara cronica, Deficit congenital</boala_ns>
+                        </nivel_scazut>
+                        <nivel_ridicat>
+                            <valoare_nr>4</valoare_nr>
+                            <boala_nr>Mielom IgA, Ciroza hepatica, Icter obstructiv, Alcoolism, Infectii subacute si cronice, Sindrom Wiskott-Aldrich</boala_nr>
+                        </nivel_ridicat>
+                    </interpretare>
+                    <pret>46</pret>
+                </analiza>
+
+                <analiza>
+                    <nume_analiza>Imunoglobulina G</nume_analiza>
+                    <descriere>Acest test masoara cantitatea de imunoglobuline G din sange si in anumite situatii din lichidul cefalorahidian sau din saliva. Exista numeroase boli si afectiuni care pot cauza cresterea sau scaderea productiei de imunoglobuline serice. Imunoglobulina G (IgG) reprezinta aproximativ 70-80% din imunoglobulinele din sange. Anticorpii IgG constituie baza de protectie pe termen lung impotriva microorganismelor. Anticorpii IgG specifici sunt produsi in timpul unei infectii sau la expunerea initial, avand evolutie crescatoare timp de cateva saptamani de la debut, scaznd apoi si stabilizandu-se. Anticorpii IgG ai mamei ofera fatului protectie in timpul sarcinii si in timpul primelor sale luni de viata</descriere>
+                    <indicatii>Recomandari pentru determinarea IgG: evaluarea imunitatii umorale, diagnosticul de mielom IgG, monitorizarea terapiei in mielomul IgG, estimarea riscului de infectii la pacientii cu limfoame.</indicatii>
+                    <interpretare>
+                        <nivel_scazut>
+                            <valoare_ns>5</valoare_ns>
+                            <boala_ns>Mielom non-IgG, Sindroame cu pierdere de protein, Sarcina, Macroglobulinemie, Aplazie limfoida, Leucemie lifatica cronica, Deficient selective de IgG, Agamaglobulinemie</boala_ns>
+                        </nivel_scazut>
+                        <nivel_ridicat>
+                            <valoare_nr>8</valoare_nr>
+                            <boala_nr>Afectiuni hepatice cronice, Sarcoidoza, Boli autoimmune, Malnutritie severa, Parazitoze,  Hiperimunizare, Disproteinemie, Mielom IgG</boala_nr>
+                        </nivel_ridicat>
+                    </interpretare>
+                    <pret>98</pret>
+                </analiza>
+
+                <analiza>
+                    <nume_analiza>Coenzima Q10</nume_analiza>
+                    <descriere>Coenzima Q10 (CoQ10) este un cofactor esential in lantul respirator mitocondrial, responsabil pentru fosforilarea oxidativa, unde functioneaza ca purtator de electroni si actioneaza ca antioxidant. CoQ10 se gaseste in toate membranele celulare si este transportata de catre lipoproteine in circulatie.</descriere>
+                    <indicatii>Diagnosticul deficientei de CoQ10 in afectiunile mitocondriale, Monitorizarea pacientilor care primesc tratament cu statine, Monitorizarea statusului CoQ10 in cursul tratamentului unor boli degenerative, precum boala Parkinson si boala Alzheimer</indicatii>
+                    <interpretare>
+                        <nivel_scazut>
+                            <valoare_ns>0.5</valoare_ns>
+                            <boala_ns>Encefalomiopatie</boala_ns>
+                        </nivel_scazut>
+                        <nivel_ridicat>
+                            <valoare_nr>1.48</valoare_nr>
+                            <boala_nr>Miopatie</boala_nr>
+                        </nivel_ridicat>
+                    </interpretare>
+                    <pret>780</pret>
+                </analiza>
+            </analize>
+        </categorie>
+
+        <categorie nume_categorie="Endocrinologie">
+            <analize>
+                <analiza>
+                    <nume_analiza>Estradiol</nume_analiza>
+                    <descriere>Estrogenii sunt hormoni sexuali produsi in principal in ovare (la femei) si in testicule (la barbati). Cei mai cunoscuti estrogeni sunt 17b-estradiol si estriol. Acestia sunt evaluati in scop diagnostic. Nivelul de estradiol creste in faza foliculara a ciclului menstrual. La menopauza, nivelul acestuia este scazut datorita diminuarii productiei ovariene.</descriere>
+                    <indicatii>Evaluarea estradiolului este utila in urmatoarele situatii: Tulburari de dezvoltare la copii (ex hipogonadism, pubertate intarziata), Evaluarea functiei de reproducere si de reproducere asistata la femeile aflate la premenopauza,  Tulburari de fertilitate la barbati si femei, Evaluarea tumorilor ovariene si testiculare</indicatii>
+                    <interpretare>
+                        <nivel_scazut>
+                            <valoare_ns>7</valoare_ns>
+                            <boala_ns>Hipofunctie ovariana, Hipopituitarism, Anorexia nervoasa, Hipofunctia cortexului suprarenalian, Moarte fetala, Menopauza</boala_ns>
+                        </nivel_scazut>
+                        <nivel_ridicat>
+                            <valoare_nr>18</valoare_nr>
+                            <boala_nr>Neoplasm ovarian, testicular si al glandei suprarenale, Tumori benigne ale ovarului si testiculului, Tumori ovariene cu celule luteale si tecale</boala_nr>
+                        </nivel_ridicat>
+                    </interpretare>
+                    <pret>59</pret>
+                </analiza>
+            </analize>
+        </categorie>
+    </categorii>
+
+
+    <pacienti>
+
+        <pacient>
+            <nume_pacient>Stanciu</nume_pacient>
+            <prenume_pacient>Malina</prenume_pacient>
+            <cnp>2990630038683</cnp>
+            <varsta_pacient>23</varsta_pacient>
+            <telefon_pacient>0729695890</telefon_pacient>
+            <sex>F</sex>
+            <email>malina_stanciu@outlook.com</email>
+            <istoric_medical>
+                <vizita>
+                    <analiza_pacient>Coenzima Q10</analiza_pacient>
+                    <data_efectuare>30.01.2022</data_efectuare>
+                    <rezultat>12</rezultat>
+                </vizita>
+                <vizita>
+                    <analiza_pacient>Estradiol</analiza_pacient>
+                    <data_efectuare>30.03.2022</data_efectuare>
+                    <rezultat>1</rezultat>
+                </vizita>
+                <vizita>
+                    <analiza_pacient>Imunoglobulina G</analiza_pacient>
+                    <data_efectuare>19.08.2021</data_efectuare>
+                    <rezultat>6.5</rezultat>
+                </vizita>
+            </istoric_medical>
+        </pacient>
+
+        <pacient>
+            <nume_pacient>Popescu</nume_pacient>
+            <prenume_pacient>Victoria</prenume_pacient>
+            <cnp>2960419037856</cnp>
+            <varsta_pacient>26</varsta_pacient>
+            <telefon_pacient>0728910712</telefon_pacient>
+            <sex>F</sex>
+            <email>victoria.popescu@yahoo.com</email>
+            <istoric_medical>
+                <vizita>
+                    <analiza_pacient>Imunoglobulina A</analiza_pacient>
+                    <data_efectuare>04.03.2022</data_efectuare>
+                    <rezultat>4.9</rezultat>
+                </vizita>
+                <vizita>
+                    <analiza_pacient>Imunoglobulina G</analiza_pacient>
+                    <data_efectuare>17.03.2022</data_efectuare>
+                    <rezultat>9</rezultat>
+                </vizita>
+            </istoric_medical>
+        </pacient>
+
+        <pacient>
+            <nume_pacient>Ionescu</nume_pacient>
+            <prenume_pacient>Gabriel</prenume_pacient>
+            <cnp>1670126096768</cnp>
+            <varsta_pacient>55</varsta_pacient>
+            <telefon_pacient>0789654234</telefon_pacient>
+            <sex>M</sex>
+            <email></email>
+            <istoric_medical>
+                <vizita>
+                    <analiza_pacient>Acid uric urinar</analiza_pacient>
+                    <data_efectuare>09.05.2021</data_efectuare>
+                    <rezultat>4</rezultat>
+                </vizita>
+            </istoric_medical>
+        </pacient>
+
+        <pacient>
+            <nume_pacient>Ion</nume_pacient>
+            <prenume_pacient>Ion</prenume_pacient>
+            <cnp>1890826091111</cnp>
+            <varsta_pacient>33</varsta_pacient>
+            <telefon_pacient>0776589089</telefon_pacient>
+            <sex>M</sex>
+            <email>ion@gmail.com</email>
+            <istoric_medical>
+                <vizita>
+                    <analiza_pacient>HIV/1 ARN (Cantitativ)</analiza_pacient>
+                    <data_efectuare>20.09.2019</data_efectuare>
+                    <rezultat>3</rezultat>
+                </vizita>
+            </istoric_medical>
+        </pacient>
+
+    </pacienti>
+
+
+    <medici>
+
+        <medic>
+            <nume_medic>Popescu</nume_medic>
+            <prenume_medic>Mihaela</prenume_medic>
+            <varsta_medic>33</varsta_medic>
+            <vechime>3</vechime>
+            <specializare>Biochimie</specializare>
+            <specializare>Endocrinologie</specializare>
+        </medic>
+
+        <medic>
+            <nume_medic>Ion</nume_medic>
+            <prenume_medic>Maria</prenume_medic>
+            <varsta_medic>45</varsta_medic>
+            <vechime>10</vechime>
+            <specializare>Biologie moleculara</specializare>
+            <specializare>Biochimie</specializare>
+            <specializare>Endocrinologie</specializare>
+            <specializare>Alergologie si imunologie</specializare>
+        </medic>
+
+        <medic>
+            <nume_medic>Gheorghe</nume_medic>
+            <prenume_medic>Ioana</prenume_medic>
+            <varsta_medic>38</varsta_medic>
+            <vechime>6</vechime>
+            <specializare>Alergologie si imunologie</specializare>
+        </medic>
+
+    </medici>
+
+
+</laborator_medical>

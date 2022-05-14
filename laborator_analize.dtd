@@ -1,0 +1,44 @@
+<!ELEMENT laborator_medical (laborator, categorii, pacienti, medici)>
+    <!ELEMENT laborator (nume_laborator, contact)>
+        <!ELEMENT nume_laborator (#PCDATA)>
+        <!ELEMENT contact (telefon_laborator, email_laborator)>
+            <!ELEMENT telefon_laborator (#PCDATA)>
+            <!ELEMENT email_laborator (#PCDATA)>
+    <!ELEMENT categorii (categorie+)>
+        <!ELEMENT categorie (analize)>
+        <!ATTLIST categorie nume_categorie CDATA #REQUIRED>
+            <!ELEMENT analize (analiza+)>
+                <!ELEMENT analiza (nume_analiza, descriere, indicatii, interpretare, pret)>
+                    <!ELEMENT nume_analiza (#PCDATA)>
+                    <!ELEMENT descriere (#PCDATA)>
+                    <!ELEMENT indicatii (#PCDATA)>
+                    <!ELEMENT interpretare (nivel_scazut, nivel_ridicat)>
+                        <!ELEMENT nivel_scazut (valoare_ns, boala_ns)>
+                            <!ELEMENT valoare_ns (#PCDATA)>
+                            <!ELEMENT boala_ns (#PCDATA)>
+                        <!ELEMENT nivel_ridicat (valoare_nr, boala_nr)>
+                            <!ELEMENT valoare_nr (#PCDATA)>
+                            <!ELEMENT boala_nr (#PCDATA)>
+                    <!ELEMENT pret (#PCDATA)>
+    <!ELEMENT pacienti (pacient+)>
+        <!ELEMENT pacient (nume_pacient, prenume_pacient, cnp, varsta_pacient, telefon_pacient, sex, email, istoric_medical)>
+            <!ELEMENT nume_pacient (#PCDATA)>
+            <!ELEMENT prenume_pacient (#PCDATA)>
+            <!ELEMENT cnp (#PCDATA)>
+            <!ELEMENT varsta_pacient (#PCDATA)>
+            <!ELEMENT telefon_pacient (#PCDATA)>
+            <!ELEMENT sex (#PCDATA)>
+            <!ELEMENT email (#PCDATA)>
+            <!ELEMENT istoric_medical (vizita+)>
+                <!ELEMENT vizita (analiza_pacient, data_efectuare, rezultat)>
+                    <!ELEMENT analiza_pacient (#PCDATA)>
+                    <!ELEMENT data_efectuare (#PCDATA)>
+                    <!ELEMENT rezultat (#PCDATA)>
+    <!ELEMENT medici (medic+)>
+        <!ELEMENT medic (nume_medic, prenume_medic, varsta_medic, vechime, specializare+)>
+            <!ELEMENT nume_medic (#PCDATA)>
+            <!ELEMENT prenume_medic (#PCDATA)>
+            <!ELEMENT varsta_medic (#PCDATA)>
+            <!ELEMENT vechime (#PCDATA)> 
+            <!ELEMENT specializare (#PCDATA)>
+            
